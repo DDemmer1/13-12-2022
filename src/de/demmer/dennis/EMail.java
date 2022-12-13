@@ -5,11 +5,13 @@ public class EMail {
 	String text;
 	String sender;
 	String recipient;
+	String subject;
 	
 
-	public EMail(String sender, String recipient) {
+	public EMail(String sender, String recipient, String subject) {
 		this.sender = sender;
 		this.recipient = recipient;
+		this.subject = subject;
 		this.text = "";
 	}
 	
