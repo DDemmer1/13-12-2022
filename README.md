@@ -26,6 +26,12 @@ In dieser Aufabge werden wir wieder an unserem Mail-Programm weiterarbeiten
 - Erstellt eine neue Methode ```public boolean deleteEMail(int index)``` in der  ```Outbox``` Klasse
 - Die Methode soll eine ```EMail``` im  ```EMail[] mails``` Array anhand eines ```int index``` mit ```null``` überschreiben
 
+-----------------------------------
+
+```Mailbox```
+- Refactored die ```Outbox``` Klasse zu ```Mailbox```
+- Erstellt eine neue ```Outbox``` Klasse und eine neue ```Inbox``` Klasse
+- Beide Klassen sollen von der ```Mailbox``` (ehemals ```Outbox```) alle Attribute und Methoden erben
 
 
   ### ℹ️ Resourcen:
